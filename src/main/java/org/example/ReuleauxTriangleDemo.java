@@ -6,7 +6,7 @@ import java.awt.geom.Ellipse2D;
 
 public class ReuleauxTriangleDemo extends JFrame {
     private static final int WINDOW_SIZE = 600;
-    private int innerTriangles;
+    private final int innerTriangles;
 
     public ReuleauxTriangleDemo(int innerTriangles) {
         this.innerTriangles = innerTriangles;
