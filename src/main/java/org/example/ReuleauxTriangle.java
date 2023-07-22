@@ -4,11 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
 
-public class ReuleauxTriangleDemo extends JFrame {
+public class ReuleauxTriangle extends JFrame {
     private static final int WINDOW_SIZE = 600;
     private final int innerTriangles;
 
-    public ReuleauxTriangleDemo(int innerTriangles) {
+    public ReuleauxTriangle(int innerTriangles) {
         this.innerTriangles = innerTriangles;
         setTitle("Треугольник Рёло");
         setSize(WINDOW_SIZE, WINDOW_SIZE);

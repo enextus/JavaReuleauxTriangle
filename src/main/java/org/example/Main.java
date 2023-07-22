@@ -10,7 +10,7 @@ public class Main {
         int innerTriangles = Integer.parseInt(input);
 
         SwingUtilities.invokeLater(() -> {
-            JFrame frame = new ReuleauxTriangleDemo(innerTriangles);
+            JFrame frame = new ReuleauxTriangle(innerTriangles);
             frame.setVisible(true);
         });
     }
