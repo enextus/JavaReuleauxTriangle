@@ -49,4 +49,8 @@ public class ReuleauxTriangle extends JFrame {
         }
     }
 
+    public int getInnerTriangles() {
+        return innerTriangles;
+    }
+
 }
